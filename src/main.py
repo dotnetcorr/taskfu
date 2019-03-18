@@ -3,8 +3,6 @@ import requests
 import socks
 import time
 
-# s = socks.socksocket()
-# s.set_proxy(socks.SOCKS5, "127.0.0.1", 9150)
 PROXY_LIST = {"https":"socks5://127.0.0.1:9150"}
 
 class Bot:
